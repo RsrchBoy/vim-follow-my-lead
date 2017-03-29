@@ -2,7 +2,8 @@ if(!exists("g:fml_all_sources"))
   let g:fml_all_sources=0
 endif
 
-let s:fml_leader = exists('mapleader') ? mapleader : '\'
+let s:fml_leader = ""
+" let s:fml_leader = exists('mapleader') ? mapleader : '\'
 if(s:fml_leader == ' ')
   let s:fml_leader = '<Space>'
 endif
