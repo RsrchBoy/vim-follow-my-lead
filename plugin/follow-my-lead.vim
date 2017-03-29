@@ -1,3 +1,8 @@
+if exists("g:fml#loaded")
+    finish
+endif
+let g:fml#loaded = 1
+
 if(!exists("g:fml_all_sources"))
   let g:fml_all_sources=0
 endif
